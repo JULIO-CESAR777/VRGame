@@ -7,7 +7,7 @@ public class ZombieAtackState : StateMachineBehaviour
     Transform player;
 
     public float stopAttackingDistance = 4f; // Distancia a la que el zombie se detiene para atacar
-    public float attackRange = 2f; // Rango mínimo de ataque para evitar que se acerque demasiado
+    public float attackRange = 1f; // Rango mínimo de ataque para evitar que se acerque demasiado
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {

@@ -12,6 +12,10 @@ public class ZombieWalkingState : StateMachineBehaviour
     public float detectionArea = 18f;
     public float patrolSpeed = 2f;
 
+    public float stopChasingDistance = 26;
+    public float attackingDistance = 2.5f;
+
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -26,12 +30,17 @@ public class ZombieWalkingState : StateMachineBehaviour
     {
 
 
+        if (player == null) return;
+
         float distanceFromPlayer = Vector3.Distance(player.position, animator.transform.position);
-        if (distanceFromPlayer < detectionArea)
+
+
+        if (distanceFromPlayer < attackingDistance)
         {
-          
-            animator.SetBool("isChasing", true);
+            animator.SetBool("isAtacking", true);
         }
+
+
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

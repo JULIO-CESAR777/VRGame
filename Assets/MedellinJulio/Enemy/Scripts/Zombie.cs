@@ -8,11 +8,15 @@ public class Zombie : MonoBehaviour
     private Animator animator;
 
     private NavMeshAgent navAgent;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponent<Animator>();
         navAgent = GetComponent<NavMeshAgent>();
+        //enemyZombie = GetComponent<CapsuleCollider>();
+       
     }
 
     public void TakeDamage(int DamageAmount)
@@ -21,16 +25,22 @@ public class Zombie : MonoBehaviour
 
         if (healthPoints <= 0)
         {
+            Invoke("DestruirEnemy", 4.0f);
+            gameObject.GetComponent<CapsuleCollider>().enabled = false;
+            //navAgent.enabled = false;
+            navAgent.acceleration = 0;
 
             int randomValue = Random.Range(0, 2);
             if(randomValue==0)
             {
                 animator.SetTrigger("DIE1");
-
+                
+               
             }
             else
             {
                 animator.SetTrigger("DIE2");
+                
             }
                
 
@@ -42,7 +52,14 @@ public class Zombie : MonoBehaviour
         }
     }
 
-   
-
-
+    private void DestruirEnemy()
+    {
+        Debug.Log("sexochido");
+        Destroy(gameObject);
+      
+    }
 }
+
+
+
+
