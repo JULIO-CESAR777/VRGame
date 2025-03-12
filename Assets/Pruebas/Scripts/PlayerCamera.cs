@@ -7,6 +7,8 @@ public class PlayerCamera : MonoBehaviour
 
     public Transform playerBody;
 
+    private float xRotation = 0;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -19,14 +21,11 @@ public class PlayerCamera : MonoBehaviour
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * mouseSensitivity;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * mouseSensitivity;
 
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
         playerBody.Rotate(Vector3.up * mouseX);
-        //rotationY += mouseX;
-        //rotationX -= mouseY;
-        //// Limit to the camera
-        //rotationX = Mathf.Clamp(rotationX, -90, 90);
         
-        //// Rotate the camera and orientation
-        //transform.rotation = Quaternion.Euler(rotationX, rotationY, 0);
-        //orientation.rotation = Quaternion.Euler(0, rotationY, 0);
     }
 }

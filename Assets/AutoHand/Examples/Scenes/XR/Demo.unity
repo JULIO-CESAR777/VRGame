@@ -3192,6 +3192,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da66d927eb120d6428e76a82925858fc, type: 3}
   m_PrefabInstance: {fileID: 1155812330}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &337181593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 337181594}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &337181594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337181593}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.823, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1994645610}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &341717727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6143327382123120946, guid: 9e4d87ed8442a2a40b13957dd237e343, type: 3}
@@ -5695,10 +5726,16 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7537621590172958315, guid: 76a7f1a2e0451124ea7899c572d6672c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7974973105712710177}
+    - targetCorrespondingSourceObject: {fileID: 7537621590172958315, guid: 76a7f1a2e0451124ea7899c572d6672c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 337181594}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2475580460510348626, guid: 76a7f1a2e0451124ea7899c572d6672c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1994645613}
+    - targetCorrespondingSourceObject: {fileID: 2475580460510348626, guid: 76a7f1a2e0451124ea7899c572d6672c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1994645614}
   m_SourcePrefab: {fileID: 100100000, guid: 76a7f1a2e0451124ea7899c572d6672c, type: 3}
 --- !u!1001 &758129686
 PrefabInstance:
@@ -10544,6 +10581,7 @@ GameObject:
   - component: {fileID: 1309331859}
   - component: {fileID: 1309331861}
   - component: {fileID: 1309331860}
+  - component: {fileID: 1309331862}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -10619,6 +10657,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309331858}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1309331862
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309331858}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1.9999999
+  m_Direction: 1
+  m_Center: {x: -0.000019073486, y: -0.0000009536743, z: -0.000000834465}
 --- !u!1 &1309670606
 GameObject:
   m_ObjectHideFlags: 0
@@ -15657,6 +15718,26 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1994645614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929838606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f18be4b523604c42bf8e48496670836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1994645613}
+  movementSpeed: 12
+  jumpHeight: 3
+  groundCheck: {fileID: 337181594}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1001 &2009295056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17560,7 +17641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 1000
-  playerBody: {fileID: 0}
+  playerBody: {fileID: 1994645610}
 --- !u!81 &5839607642831093590
 AudioListener:
   m_ObjectHideFlags: 0
