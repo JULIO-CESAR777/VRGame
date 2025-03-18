@@ -12,7 +12,7 @@ public class ZombieFollow : MonoBehaviour
     void Start()
     {
         navAgent = GetComponent<NavMeshAgent>();
-        //player = GameObject.FindWithTag("Player");
+        player = GameObject.FindWithTag("Player");
     }
 
     void Update()
