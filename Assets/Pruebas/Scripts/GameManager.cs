@@ -33,11 +33,12 @@ public class GameManager : MonoBehaviour
         // VR
         //bulletText = GameObject.Find("BulletText").GetComponent<TextMeshProUGUI>();
         //pointsText = GameObject.Find("PointsText").GetComponent<TextMeshProUGUI>();
+        //lifeText = GameObject.Find("HealthTextNVR").GetComponent<TextMeshProUGUI>();
 
         // No VR
         bulletText = GameObject.Find("BulletCountNVR").GetComponent<TextMeshProUGUI>();
         pointsText = GameObject.Find("PointsTextNVR").GetComponent<TextMeshProUGUI>();
-        //lifeText = GameObject.Find("LifeText").GetComponent<TextMeshProUGUI>();
+        lifeText = GameObject.Find("HealtTextNVR").GetComponent<TextMeshProUGUI>();
 
         points = 0;
         bullets = maxBullets;
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour
 
         ChangeBulletText(bullets);
         ChangePointsText(points);
+        ChangeLifeText(life);
 
 
     }
@@ -62,12 +64,13 @@ public class GameManager : MonoBehaviour
 
     public void ChangeLifeText(int amount)
     {
-        //lifeText.text = amount.ToString();
+        lifeText.text = "Health: " + amount.ToString();
     }
 
     public void ChangeDeathScene()
     {
         //Cambia a escena de muerte jijijjiijiji
+        Debug.Log("murio");
     }
 
     public void BuyBullets(int losepoints, int someBullets) {
@@ -83,5 +86,18 @@ public class GameManager : MonoBehaviour
         if (bullets >= maxBullets) bullets = maxBullets;
     }
 
+    public void DmgPlayer(int dmg) { 
+        life -= dmg;
+
+        if(life <= 0) ChangeDeathScene();
+
+        ChangeLifeText(life);
+    }
+
+    public void HealPlayer(int healing) { 
+        life += healing;
+        if(life >= 100) life = 100;
+        ChangeLifeText(life);
+    }
 
 }
