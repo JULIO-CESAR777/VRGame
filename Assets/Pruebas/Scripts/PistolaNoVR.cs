@@ -5,12 +5,11 @@ using UnityEngine.InputSystem;
 public class PistolaNoVR : MonoBehaviour
 {
      // Bullets
-    private int maxBullets = 20;
-    public int bullets;
+    //private int maxBullets = 20;
+    //public int bullets;
     public bool usingBullets = false;
     
     public GameObject bulletPrefab;
-    public float bulletForce = 20f;
 
     private int bulletDamage = 20;
     // RB
@@ -32,7 +31,6 @@ public class PistolaNoVR : MonoBehaviour
     {
         if (body == null && GetComponent<Rigidbody>() != null)
             body = GetComponent<Rigidbody>();
-        bullets = maxBullets;
         
     }
 
@@ -45,8 +43,7 @@ public class PistolaNoVR : MonoBehaviour
     public void Shoot()
     {
 
-        if (usingBullets && bullets <= 0) return;
-        Debug.Log("se esta disparando");
+        if (usingBullets && GameManager.instance.bullets <= 0) return;
         
         //Play the audio sound
         if (shootSound)
@@ -72,16 +69,11 @@ public class PistolaNoVR : MonoBehaviour
 
         if (usingBullets)
         {
-            bullets--;
+            GameManager.instance.bullets--;
             //Esto del game manager no se si funcione pero ojala y si
-            GameManager.instance.ChangeBulletText(bullets);
+            GameManager.instance.ChangeBulletText(GameManager.instance.bullets);
         }
         
     }
 
-    public void AddBullets(int takeBullets)
-    {
-        bullets += takeBullets;
-        if (bullets >= maxBullets) bullets = maxBullets;
-    }
 }
