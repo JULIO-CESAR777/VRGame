@@ -3,12 +3,11 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    public float sensX;
-    public float sensY;
+    public float mouseSensitivity = 1000f;
 
-    public Transform orientation;
-    float rotationX;
-    float rotationY;
+    public Transform playerBody;
+
+    private float xRotation = 0;
 
     private void Start()
     {
@@ -19,16 +18,14 @@ public class PlayerCamera : MonoBehaviour
     private void Update()
     {
         // Inputs
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * mouseSensitivity;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * mouseSensitivity;
+
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
+        playerBody.Rotate(Vector3.up * mouseX);
         
-        rotationY += mouseX;
-        rotationX -= mouseY;
-        // Limit to the camera
-        rotationX = Mathf.Clamp(rotationX, -90, 90);
-        
-        // Rotate the camera and orientation
-        transform.rotation = Quaternion.Euler(rotationX, rotationY, 0);
-        orientation.rotation = Quaternion.Euler(0, rotationY, 0);
     }
 }
