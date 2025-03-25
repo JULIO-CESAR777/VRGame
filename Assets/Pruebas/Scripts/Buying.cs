@@ -32,12 +32,9 @@ public class Buying : MonoBehaviour
             // Si está cerca y mirando hacia el punto, aparece el objeto
             if (!objeto.activeSelf)
             {
+                Debug.Log("texto activo");
                 objeto.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.F))
-                {
-                    Debug.Log("compra balas");
-                    GameManager.instance.BuyBullets(100, 5);
-                }
+                
             }
         }
         else
@@ -47,6 +44,12 @@ public class Buying : MonoBehaviour
             {
                 objeto.SetActive(false);
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.F) && objeto.activeSelf)
+        {
+            Debug.Log("compra balas");
+            GameManager.instance.BuyBullets(100, 5);
         }
     }
 }

@@ -17,21 +17,8 @@ public class TestVignette : MonoBehaviour
 
         // Obtener el efecto Vignette dentro del perfil del Volume
         if (_volume.profile.TryGet<Vignette>(out _vignette))
-        {
-            // Si se encuentra, puedes empezar a modificar las propiedades del efecto
-            Debug.Log("Efecto Vignette encontrado y listo para modificar.");
-        }
-        else
-        {
-            Debug.LogError("No se encontró el efecto Vignette en el perfil del Volume.");
-        }
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q)) {
-            StartCoroutine(TakeDmg());
-        }
+        {}
+        else{}
     }
 
     public IEnumerator TakeDmg() {
