@@ -54,9 +54,6 @@ public class GameManager : MonoBehaviour
         }
         
 
-
-
-
         // VR
         //bulletText = GameObject.Find("BulletText").GetComponent<TextMeshProUGUI>();
         //pointsText = GameObject.Find("PointsText").GetComponent<TextMeshProUGUI>();
@@ -67,7 +64,7 @@ public class GameManager : MonoBehaviour
         pointsText = GameObject.Find("PointsTextNVR").GetComponent<TextMeshProUGUI>();
         lifeText = GameObject.Find("HealtTextNVR").GetComponent<TextMeshProUGUI>();
 
-        points = 0;
+        //points = 0;
         bullets = maxBullets;
         life = maxLife;
 
@@ -101,6 +98,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void BuyBullets(int losepoints, int someBullets) {
+        Debug.Log("entro a comprar balas");
         if (points < losepoints) return;
 
         points -= losepoints;
