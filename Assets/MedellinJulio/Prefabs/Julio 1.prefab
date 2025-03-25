@@ -6859,6 +6859,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3046812295097905027}
     m_Modifications:
+    - target: {fileID: 687691014280420285, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 687691014280420285, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4312379858189394426, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.129
@@ -6906,6 +6914,38 @@ PrefabInstance:
     - target: {fileID: 7079567902486886788, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
       propertyPath: m_Name
       value: PistolaVR
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_margin.w
+      value: 11.555433
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_margin.x
+      value: -2.6931744
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_margin.z
+      value: -7.480173
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119229459100430316, guid: 3a657741bb7e80940864e8d7a45e038d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
