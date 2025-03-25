@@ -46,11 +46,13 @@ public class GameManager : MonoBehaviour
         {
             // Si se encuentra, puedes empezar a modificar las propiedades del efecto
             Debug.Log("Efecto Vignette encontrado y listo para modificar.");
+            _vignette.intensity.value = 0f;
         }
         else
         {
             Debug.LogError("No se encontró el efecto Vignette en el perfil del Volume.");
         }
+        
 
 
 
@@ -128,17 +130,19 @@ public class GameManager : MonoBehaviour
         _vignette.intensity.value = intensity;
 
         // Esperar 0.4 segundos
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.35f);
 
         // Reducir gradualmente la intensidad hasta llegar a 0
         while (intensity > 0)
         {
-            intensity -= 0.02f;
+            intensity -= 0.01f;
 
             if (intensity < 0)
                 intensity = 0;
 
             _vignette.intensity.value = intensity;
+
+            print("se esta modificando alv");
 
             // Esperar 0.1 segundos entre cada decremento
             yield return new WaitForSeconds(0.1f);
