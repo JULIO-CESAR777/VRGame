@@ -3276,6 +3276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1919937759}
   - component: {fileID: 1919937758}
+  - component: {fileID: 1919937760}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3301,6 +3302,7 @@ MonoBehaviour:
   points: 100
   bullets: 20
   life: 0
+  intensity: 0
 --- !u!4 &1919937759
 Transform:
   m_ObjectHideFlags: 0
@@ -3316,6 +3318,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1919937760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919937757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: bff2d26da67f51e489f14f0af34b034c, type: 2}
 --- !u!4 &1994645610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7537621590172958315, guid: 76a7f1a2e0451124ea7899c572d6672c, type: 3}

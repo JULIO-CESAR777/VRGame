@@ -1,7 +1,9 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,6 +25,11 @@ public class GameManager : MonoBehaviour
     public int life;
     private int maxLife = 100;
 
+    public float intensity = 0;
+
+    private Volume _volume;  // El volumen con el efecto Vignette
+    private Vignette _vignette;
+
     private void Awake()
     {
         instance = this;
@@ -30,6 +37,24 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+
+        //Volume code
+        _volume = GetComponent<Volume>();
+
+        // Obtener el efecto Vignette dentro del perfil del Volume
+        if (_volume.profile.TryGet<Vignette>(out _vignette))
+        {
+            // Si se encuentra, puedes empezar a modificar las propiedades del efecto
+            Debug.Log("Efecto Vignette encontrado y listo para modificar.");
+        }
+        else
+        {
+            Debug.LogError("No se encontró el efecto Vignette en el perfil del Volume.");
+        }
+
+
+
+
         // VR
         //bulletText = GameObject.Find("BulletText").GetComponent<TextMeshProUGUI>();
         //pointsText = GameObject.Find("PointsText").GetComponent<TextMeshProUGUI>();
@@ -90,8 +115,38 @@ public class GameManager : MonoBehaviour
         life -= dmg;
 
         if(life <= 0) ChangeDeathScene();
-
+        StartCoroutine(ScreenEffect());
         ChangeLifeText(life);
+    }
+
+    private IEnumerator ScreenEffect() {
+        // Definir la intensidad inicial
+        float intensity = 0.4f;
+
+        // Habilitar el Vignette y establecer su intensidad
+        _vignette.active = true;
+        _vignette.intensity.value = intensity;
+
+        // Esperar 0.4 segundos
+        yield return new WaitForSeconds(0.3f);
+
+        // Reducir gradualmente la intensidad hasta llegar a 0
+        while (intensity > 0)
+        {
+            intensity -= 0.02f;
+
+            if (intensity < 0)
+                intensity = 0;
+
+            _vignette.intensity.value = intensity;
+
+            // Esperar 0.1 segundos entre cada decremento
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        // Desactivar el Vignette una vez que la intensidad llega a 0
+        _vignette.active = false;
+        yield break;
     }
 
     public void HealPlayer(int healing) { 
@@ -99,5 +154,7 @@ public class GameManager : MonoBehaviour
         if(life >= 100) life = 100;
         ChangeLifeText(life);
     }
+
+
 
 }
