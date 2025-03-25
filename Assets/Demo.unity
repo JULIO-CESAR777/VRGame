@@ -2451,13 +2451,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621389849}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: -4.032559, y: -2.9094934, z: -23.586016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2096876399}
-  m_Father: {fileID: 2087993513}
+  m_Father: {fileID: 4509258547350798593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1621389851
 MonoBehaviour:
@@ -2685,9 +2685,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795971965}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.083481275, z: -0, w: 0.9965094}
-  m_LocalPosition: {x: 25.08, y: 0.933, z: -6.8513}
-  m_LocalScale: {x: 0.07500002, y: 0.075, z: 0.07500002}
+  m_LocalRotation: {x: -0, y: -0.64560723, z: -0, w: 0.7636697}
+  m_LocalPosition: {x: 4.3904448, y: -1.6264935, z: -1.3960395}
+  m_LocalScale: {x: 0.07500001, y: 0.075, z: 0.07500001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4798410404842932604}
@@ -2695,7 +2695,7 @@ Transform:
   - {fileID: 4152237875341933939}
   - {fileID: 1362675064665765872}
   - {fileID: 7144209891410242279}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 4509258547350798593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919937757
 GameObject:
@@ -2840,7 +2840,6 @@ Transform:
   m_Children:
   - {fileID: 1635071975}
   - {fileID: 538081196}
-  - {fileID: 1621389850}
   m_Father: {fileID: 1205330464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2094029567
@@ -8575,7 +8574,7 @@ GameObject:
   - component: {fileID: 3870930356799486834}
   - component: {fileID: 1323136828456292280}
   - component: {fileID: 404528258206225214}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_07 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10288,7 +10287,7 @@ GameObject:
   - component: {fileID: 3514888870997447660}
   - component: {fileID: 1667338498825660198}
   - component: {fileID: 63620105224109020}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_03 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11484,7 +11483,7 @@ GameObject:
   - component: {fileID: 3667692524752725430}
   - component: {fileID: 1513972134977540476}
   - component: {fileID: 199038007864430074}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11806,7 +11805,7 @@ GameObject:
   - component: {fileID: 3629843478987549895}
   - component: {fileID: 1565911405612423181}
   - component: {fileID: 178641509634032779}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_04 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11841,7 +11840,7 @@ GameObject:
   - component: {fileID: 3606135583679448384}
   - component: {fileID: 1580594680868696458}
   - component: {fileID: 157331168418491660}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_10 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14691,7 +14690,7 @@ GameObject:
   - component: {fileID: 3319780113557819642}
   - component: {fileID: 717986750669382704}
   - component: {fileID: 2177306271394789558}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_04 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15743,7 +15742,7 @@ GameObject:
   - component: {fileID: 2912022356234713989}
   - component: {fileID: 1120661482926591823}
   - component: {fileID: 1751044902410507209}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_02 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16101,28 +16100,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3888217318249773932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1533829914993060139
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839768825101964404}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3658167174516941135, guid: ad479b8443137bd459ec01f94176f89a, type: 3}
 --- !u!33 &1537085358795254869
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17659,7 +17636,7 @@ GameObject:
   - component: {fileID: 3158267619041093143}
   - component: {fileID: 878374428130464477}
   - component: {fileID: 2013400690338188891}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_09 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17934,7 +17911,7 @@ GameObject:
   - component: {fileID: 3100975220198756639}
   - component: {fileID: 931145343124153813}
   - component: {fileID: 1958364762904344915}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_02 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18465,7 +18442,7 @@ GameObject:
   - component: {fileID: 2612064571997961187}
   - component: {fileID: 277848420046262057}
   - component: {fileID: 1448619813812327343}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_04 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28555,7 +28532,6 @@ GameObject:
   - component: {fileID: 1352200647641534158}
   - component: {fileID: 2696566313370059115}
   - component: {fileID: 182632796498818465}
-  - component: {fileID: 1533829914993060139}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_8 (1)
   m_TagString: Untagged
@@ -34718,7 +34694,7 @@ GameObject:
   - component: {fileID: 2364836654526509075}
   - component: {fileID: 519428128589792473}
   - component: {fileID: 1221870230864812127}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_01 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45713,7 +45689,7 @@ GameObject:
   - component: {fileID: 2000203360953590092}
   - component: {fileID: 4334381566936388998}
   - component: {fileID: 3163572802072348928}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57482,7 +57458,7 @@ GameObject:
   - component: {fileID: 1018200944276809510}
   - component: {fileID: 3009978041671013356}
   - component: {fileID: 4468699706689867630}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_08 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58242,7 +58218,7 @@ GameObject:
   - component: {fileID: 1092470375423725360}
   - component: {fileID: 2940229664470481914}
   - component: {fileID: 4543110494339639164}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_07 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58692,7 +58668,6 @@ GameObject:
   - component: {fileID: 4555951985936814913}
   - component: {fileID: 618723385407495396}
   - component: {fileID: 3419026986694092846}
-  - component: {fileID: 4085687679398884532}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_9 (1)
   m_TagString: Untagged
@@ -65691,7 +65666,7 @@ GameObject:
   - component: {fileID: 329836922700983035}
   - component: {fileID: 2555554911390965297}
   - component: {fileID: 3798419079871857355}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_03 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65818,28 +65793,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &4085687679398884532
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3779134292614941179}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2962684652054757330, guid: 385e5c2b97b2d5b4fb89060ce09221be, type: 3}
 --- !u!64 &4086146227855816796
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72818,7 +72771,7 @@ GameObject:
   - component: {fileID: 30367421782663778}
   - component: {fileID: 2850519404557981352}
   - component: {fileID: 3480862405715282478}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_09 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74137,11 +74090,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1621389850}
   - {fileID: 3888217318249773932}
   - {fileID: 4649038315801378727}
   - {fileID: 1795149368485885126}
   - {fileID: 7926628549828334733}
   - {fileID: 2821492079310806728}
+  - {fileID: 1795971966}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &4509841900596648681
@@ -79631,7 +79586,7 @@ GameObject:
   - component: {fileID: 258024738143727816}
   - component: {fileID: 2625677095669400578}
   - component: {fileID: 3724990131382491268}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_05 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81744,7 +81699,7 @@ GameObject:
   - component: {fileID: 9112343450541522724}
   - component: {fileID: 6454075389537061870}
   - component: {fileID: 5643273111816116076}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_08 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83705,7 +83660,7 @@ GameObject:
   - component: {fileID: 8747373383473367254}
   - component: {fileID: 6809476681946102812}
   - component: {fileID: 5278653444554580122}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_04 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84841,7 +84796,7 @@ GameObject:
   - component: {fileID: 8917235997644820218}
   - component: {fileID: 6639596321380694576}
   - component: {fileID: 5468777377427383990}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_05 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86905,7 +86860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7926628549828334733}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ceil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89984,7 +89939,7 @@ GameObject:
   - component: {fileID: 8338616204673138441}
   - component: {fileID: 6078804017189440451}
   - component: {fileID: 4872285298633594693}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90885,7 +90840,7 @@ GameObject:
   - component: {fileID: 7908727487296039998}
   - component: {fileID: 5342824927080028404}
   - component: {fileID: 6765553806229341298}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_10 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91335,7 +91290,7 @@ GameObject:
   - component: {fileID: 7868182833002568899}
   - component: {fileID: 5392376453782382601}
   - component: {fileID: 6706990629987267727}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98340,7 +98295,7 @@ GameObject:
   - component: {fileID: 7609256556456369468}
   - component: {fileID: 5655806226860354038}
   - component: {fileID: 6466289927995176304}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_10 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98721,7 +98676,7 @@ GameObject:
   - component: {fileID: 7583632484783108036}
   - component: {fileID: 5682010943623322382}
   - component: {fileID: 6420755898409305992}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_05 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98801,7 +98756,7 @@ GameObject:
   - component: {fileID: 7707805053438333629}
   - component: {fileID: 5553897742460774007}
   - component: {fileID: 6544571608178457329}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_07 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102097,7 +102052,7 @@ GameObject:
   - component: {fileID: 7463832251451337075}
   - component: {fileID: 4643260327978114489}
   - component: {fileID: 6319035209114059067}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_08 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103501,7 +103456,7 @@ GameObject:
   - component: {fileID: 7003669303190484417}
   - component: {fileID: 5104547973156110603}
   - component: {fileID: 5843256654724570505}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_08 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104147,7 +104102,7 @@ GameObject:
   - component: {fileID: 7067857235541140276}
   - component: {fileID: 5040343805850179582}
   - component: {fileID: 5923201481253112696}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_05 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104166,7 +104121,7 @@ GameObject:
   - component: {fileID: 7198890179840463538}
   - component: {fileID: 4900883087570806392}
   - component: {fileID: 6035661955916774142}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_05 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107413,28 +107368,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7250556747511686766
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7520535442638494521}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6647624019548292907, guid: 64b60bbcc1dc2bc4393fafaff39a5320, type: 3}
 --- !u!64 &7255277516618435842
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -108661,7 +108594,7 @@ GameObject:
   - component: {fileID: 6547249810174850855}
   - component: {fileID: 9023091916273075181}
   - component: {fileID: 7708442837012274967}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_03 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108707,7 +108640,6 @@ GameObject:
   - component: {fileID: 7860625639858723308}
   - component: {fileID: 6537351759790364233}
   - component: {fileID: 9033554015547597443}
-  - component: {fileID: 7682072386071838233}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_5 (1)
   m_TagString: Untagged
@@ -110136,7 +110068,6 @@ GameObject:
   - component: {fileID: 7139788221357195651}
   - component: {fileID: 6105267125051231782}
   - component: {fileID: 8313279133612014316}
-  - component: {fileID: 7250556747511686766}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_7 (1)
   m_TagString: Untagged
@@ -111565,28 +111496,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6226456126440367754}
   m_Mesh: {fileID: -7094286012359142310, guid: c0d063a36d1edd84cb3e2c50e5cddb2a, type: 3}
---- !u!64 &7682072386071838233
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7376155066629817174}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6103451000640228994, guid: 6630c633826648d4fbabad91f4e3b679, type: 3}
 --- !u!23 &7684029140633290462
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -111970,7 +111879,7 @@ GameObject:
   - component: {fileID: 6325153138613103925}
   - component: {fileID: 8080445151243917823}
   - component: {fileID: 7485571559223543161}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117785,7 +117694,7 @@ GameObject:
   - component: {fileID: 5797026646384816654}
   - component: {fileID: 8617596434921637572}
   - component: {fileID: 6941823756634413634}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_01 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117804,7 +117713,7 @@ GameObject:
   - component: {fileID: 5799646189640871448}
   - component: {fileID: 8617792036141865682}
   - component: {fileID: 6942608421678974548}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_07 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118379,7 +118288,7 @@ GameObject:
   - component: {fileID: 5861237523788125042}
   - component: {fileID: 8553385935084201912}
   - component: {fileID: 7021725971428850494}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118957,7 +118866,7 @@ GameObject:
   - component: {fileID: 5931067026297941910}
   - component: {fileID: 8479034828310027100}
   - component: {fileID: 7091481531515340762}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_09 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127619,7 +127528,7 @@ GameObject:
   - component: {fileID: 5701207806339493778}
   - component: {fileID: 7564416810277952344}
   - component: {fileID: 9168098088907098078}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_05 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129928,7 +129837,7 @@ GameObject:
   - component: {fileID: 5439727209192039035}
   - component: {fileID: 7825352186941658801}
   - component: {fileID: 8888040761499142711}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_10 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130180,7 +130089,7 @@ GameObject:
   - component: {fileID: 4948450398026772138}
   - component: {fileID: 7154137481734412896}
   - component: {fileID: 8397260037599577830}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_07 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130499,7 +130408,7 @@ GameObject:
   - component: {fileID: 4905132877445930203}
   - component: {fileID: 7203084382101432337}
   - component: {fileID: 8374420095915750547}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_08 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131814,7 +131723,7 @@ GameObject:
   - component: {fileID: 5183084803200268488}
   - component: {fileID: 6920611384965909506}
   - component: {fileID: 8632106098218258564}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_09 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132199,7 +132108,7 @@ GameObject:
   - component: {fileID: 5159464500181984261}
   - component: {fileID: 6953257561726718159}
   - component: {fileID: 8628750961376463945}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Ceil_09 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135692,5 +135601,4 @@ SceneRoots:
   - {fileID: 1747469338}
   - {fileID: 2014112238}
   - {fileID: 253645560}
-  - {fileID: 1795971966}
   - {fileID: 1144498429}
