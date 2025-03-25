@@ -35,6 +35,7 @@ public class Buying : MonoBehaviour
                 objeto.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.F))
                 {
+                    Debug.Log("compra balas");
                     GameManager.instance.BuyBullets(100, 5);
                 }
             }
