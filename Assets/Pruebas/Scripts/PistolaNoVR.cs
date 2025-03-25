@@ -5,23 +5,18 @@ using UnityEngine.InputSystem;
 public class PistolaNoVR : MonoBehaviour
 {
      // Bullets
-    private int maxBullets = 20;
-    public int bullets;
+    //private int maxBullets = 20;
+    //public int bullets;
     public bool usingBullets = false;
     
     public GameObject bulletPrefab;
-    public float bulletForce = 20f;
 
-    private Vector3 initialGunPosition;
-    
+    private int bulletDamage = 20;
     // RB
     public Rigidbody body;
 
     // Gun properties
     public Transform barrelTip;
-    public float hitPower = 1;
-    public float recoilPower = 1;
-    public LayerMask layer;
 
     // Sound
     public AudioClip shootSound;
@@ -31,40 +26,24 @@ public class PistolaNoVR : MonoBehaviour
     public float raycastDistance = 50f;
     public Color rayColor = Color.red;
     
-    // Input Action
-    public InputActionReference fire;
-
-    private void OnEnable()
-    {
-        fire.action.started += Fire;
-    }
-
-    private void OnDisable()
-    {
-        fire.action.started -= Fire;
-    }
-
-    private void Fire(InputAction.CallbackContext obj)
-    {
-        Shoot();
-    }
 
     private void Start()
     {
         if (body == null && GetComponent<Rigidbody>() != null)
             body = GetComponent<Rigidbody>();
-        bullets = maxBullets;
         
-        //condicional para activar usando balas o no
-        
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Fire1")) Shoot();
     }
 
 
     public void Shoot()
     {
 
-        Debug.Log("se esta disparando");
-        if (usingBullets && bullets <= 0) return;
+        if (usingBullets && GameManager.instance.bullets <= 0) return;
         
         //Play the audio sound
         if (shootSound)
@@ -73,13 +52,15 @@ public class PistolaNoVR : MonoBehaviour
         //Make a RayCast
         RaycastHit hit;
         if (Physics.Raycast(barrelTip.position, barrelTip.forward, out hit, raycastDistance))
-        { 
+        {
+            
             // If the raycast hits something, print the hit info
             // Debug.Log("Raycast hit: " + hit.collider.name);
             var hitBody = hit.transform.GetComponent<Rigidbody>();
             if (hitBody != null)
             {
                 hitBody.GetComponent<Target>()?.OnHitTarget();
+                hitBody.GetComponent<Zombie>()?.TakeDamage(bulletDamage);
             }
         }
 
@@ -88,16 +69,11 @@ public class PistolaNoVR : MonoBehaviour
 
         if (usingBullets)
         {
-            bullets--;
+            GameManager.instance.bullets--;
             //Esto del game manager no se si funcione pero ojala y si
-            GameManager.instance.ChangeBulletText(bullets);
+            GameManager.instance.ChangeBulletText(GameManager.instance.bullets);
         }
         
     }
 
-    public void AddBullets(int takeBullets)
-    {
-        bullets += takeBullets;
-        if (bullets >= maxBullets) bullets = maxBullets;
-    }
 }

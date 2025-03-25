@@ -54,7 +54,6 @@ public class Zombie : MonoBehaviour
 
     private void DestruirEnemy()
     {
-        Debug.Log("sexochido");
         Destroy(gameObject);
       
     }
