@@ -2243,6 +2243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   rotationSpeed: 5
+  isAlive: 1
+  itemPrefab: {fileID: 5923650697009474398, guid: 2aed7e00722761149bb7d024704330ba, type: 3}
+  dropChance: 0.2
 --- !u!114 &7405561819667996828
 MonoBehaviour:
   m_ObjectHideFlags: 0

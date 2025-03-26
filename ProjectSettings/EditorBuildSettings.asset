@@ -5,9 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/PracticaDeTiro.unity
     guid: 9935fff7a54383d4a8ca954c1411c833
+  - enabled: 1
+    path: Assets/MenuSeleccionNoVR.unity
+    guid: bcb07ab70dd0f6747a4d76455a530fa5
+  - enabled: 1
+    path: Assets/Dungeon.unity
+    guid: e51ddd7e8f1da3e4d851455837ac0c76
+  - enabled: 1
+    path: Assets/PracticaDeTiroNOVR.unity
+    guid: 1fe295b49800cba4fbd90e9e2c1f41d6
+  - enabled: 1
+    path: Assets/PracticaDeTiroVR.unity
+    guid: 8dad48a9faa3ba84a8c52c54424e3de1
+  - enabled: 1
+    path: Assets/Dungeon VR.unity
+    guid: 02179ad3eeb970e4ea144db601569e6e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class CanvasHide : MonoBehaviour
 {
     public GameObject canvasUi;
@@ -17,5 +17,21 @@ public class CanvasHide : MonoBehaviour
 
     public void CerrarJuego() { 
         Application.Quit();
+    }
+
+    public void SceneZombiesVR()
+    {
+        SceneManager.LoadScene("Dungeon VR");
+    }
+
+    public void SceneTiroVR()
+    {
+        SceneManager.LoadScene("PracticaDeTiroVR");
+    }
+
+
+    public void SceneMenuPrincipalVR()
+    {
+        SceneManager.LoadScene("MenuSeleccion");
     }
 }
