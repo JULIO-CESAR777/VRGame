@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void ChangePointsText(int addPoints) {
+    public void ChangePointsText(int addPoints = 0) {
         points += addPoints;
         pointsText.text = points.ToString();
     }
@@ -98,12 +98,13 @@ public class GameManager : MonoBehaviour
     }
 
     public void BuyBullets(int losepoints, int someBullets) {
-        Debug.Log("entro a comprar balas");
         if (points < losepoints) return;
 
         points -= losepoints;
+        Debug.Log("points: " + points);
         AddBullets(someBullets);
         ChangeBulletText(bullets);
+        ChangePointsText();
     }
 
     private void AddBullets(int extraBullets) { 

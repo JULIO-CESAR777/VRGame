@@ -34,7 +34,6 @@ public class Buying : MonoBehaviour
             {
                 Debug.Log("texto activo");
                 objeto.SetActive(true);
-                
             }
         }
         else
@@ -48,7 +47,6 @@ public class Buying : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F) && objeto.activeSelf)
         {
-            Debug.Log("compra balas");
             GameManager.instance.BuyBullets(100, 5);
         }
     }
