@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -44,14 +45,9 @@ public class GameManager : MonoBehaviour
         // Obtener el efecto Vignette dentro del perfil del Volume
         if (_volume.profile.TryGet<Vignette>(out _vignette))
         {
-            // Si se encuentra, puedes empezar a modificar las propiedades del efecto
-            Debug.Log("Efecto Vignette encontrado y listo para modificar.");
             _vignette.intensity.value = 0f;
         }
-        else
-        {
-            Debug.LogError("No se encontró el efecto Vignette en el perfil del Volume.");
-        }
+       
         
 
         // VR
@@ -73,7 +69,13 @@ public class GameManager : MonoBehaviour
         ChangePointsText(points);
         ChangeLifeText(life);
 
+        if (SceneManager.GetActiveScene().name == "PracticaDeTiroNOVR")
+        {
+            bulletText.gameObject.SetActive(false);
+            pointsText.gameObject.SetActive(false);
+            lifeText.gameObject.SetActive(false);
 
+        }
     }
 
     public void ChangePointsText(int addPoints) {
@@ -104,6 +106,7 @@ public class GameManager : MonoBehaviour
         points -= losepoints;
         AddBullets(someBullets);
         ChangeBulletText(bullets);
+        ChangePointsText(0);
     }
 
     private void AddBullets(int extraBullets) { 

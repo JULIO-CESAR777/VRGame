@@ -61,6 +61,7 @@ public class PistolaNoVR : MonoBehaviour
             {
                 hitBody.GetComponent<Target>()?.OnHitTarget();
                 hitBody.GetComponent<Zombie>()?.TakeDamage(bulletDamage);
+               
             }
         }
 

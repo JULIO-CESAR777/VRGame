@@ -18,7 +18,7 @@ public class Zombie : MonoBehaviour
     public void TakeDamage(int DamageAmount)
     {
         healthPoints -= DamageAmount;
-
+        GameManager.instance.ChangePointsText(30);
         if (healthPoints <= 0)
         {
             Invoke("DestruirEnemy", 4.0f);
@@ -52,4 +52,8 @@ public class Zombie : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+ 
+
+
 }
