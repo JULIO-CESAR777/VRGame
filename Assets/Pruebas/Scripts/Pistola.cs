@@ -5,10 +5,6 @@ using UnityEngine.InputSystem;
 
 public class Pistola : MonoBehaviour
 {
-    // Bullets
-    private int maxBullets = 20;
-    public int bullets;
-    public bool usingBullets = false;
     
     public GameObject bulletPrefab;
     public float bulletForce = 20f;
@@ -36,16 +32,12 @@ public class Pistola : MonoBehaviour
     {
         if (body == null && GetComponent<Rigidbody>() != null)
             body = GetComponent<Rigidbody>();
-        bullets = maxBullets;
-        
-        //condicional para activar usando balas o no
-        
     }
     
     public void Shoot()
     {
 
-        if (usingBullets && bullets <= 0) return;
+        if (GameManager.instance.usingBullets && GameManager.instance.bullets <= 0) return;
         
         //Play the audio sound
         if (shootSound)
@@ -68,11 +60,11 @@ public class Pistola : MonoBehaviour
         //Make some recoil
         body.AddForce(barrelTip.transform.up * recoilPower * 5, ForceMode.Impulse);
 
-        if (usingBullets)
+        if (GameManager.instance.usingBullets)
         {
-            bullets--;
+            GameManager.instance.bullets--;
             //Esto del game manager no se si funcione pero ojala y si
-            GameManager.instance.ChangeBulletText(bullets);
+            GameManager.instance.ChangeBulletText(GameManager.instance.bullets);
         }
         
     }
