@@ -9,6 +9,7 @@ public class DamagePlayerTesting : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             GameManager.instance.DmgPlayer(25);
+            Debug.Log("dañoplayer");
         }
     }
 }

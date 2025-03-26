@@ -11,7 +11,10 @@ public class TargetSpawner : MonoBehaviour
     public GameObject targetPrefab;
     // The list of the targets in the scene
     private List<GameObject> targets = new List<GameObject>();
-
+    private void Start()
+    {
+        SpawnTargets();
+    }
     public void SpawnTargets()
     {
         // A copy of the posible spawns
