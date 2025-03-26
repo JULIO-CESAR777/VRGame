@@ -69,11 +69,4 @@ public class Pistola : MonoBehaviour
         
     }
 
-    public void AddBullets(int takeBullets)
-    {
-        bullets += takeBullets;
-        if (bullets >= maxBullets) bullets = maxBullets;
-    }
-
-
 }

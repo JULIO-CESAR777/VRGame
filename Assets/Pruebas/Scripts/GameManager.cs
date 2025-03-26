@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     // Bullets
     public int bullets = 20;
     private int maxBullets = 20;
+    public bool usingBullets = false;
 
     //Life
     public int life;
