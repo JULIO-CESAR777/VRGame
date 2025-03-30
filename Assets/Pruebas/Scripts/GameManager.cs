@@ -51,14 +51,14 @@ public class GameManager : MonoBehaviour
         
 
         // VR
-        bulletText = GameObject.Find("BulletText").GetComponent<TextMeshProUGUI>();
-        pointsText = GameObject.Find("PointsText").GetComponent<TextMeshProUGUI>();
-        lifeText = GameObject.Find("HealthText").GetComponent<TextMeshProUGUI>();
+        //bulletText = GameObject.Find("BulletText").GetComponent<TextMeshProUGUI>();
+        //pointsText = GameObject.Find("PointsText").GetComponent<TextMeshProUGUI>();
+        //lifeText = GameObject.Find("HealthText").GetComponent<TextMeshProUGUI>();
 
-        // No VR
-        //bulletText = GameObject.Find("BulletCountNVR").GetComponent<TextMeshProUGUI>();
-        //pointsText = GameObject.Find("PointsTextNVR").GetComponent<TextMeshProUGUI>();
-        //lifeText = GameObject.Find("HealtTextNVR").GetComponent<TextMeshProUGUI>();
+        //No VR
+        bulletText = GameObject.Find("BulletCountNVR").GetComponent<TextMeshProUGUI>();
+        pointsText = GameObject.Find("PointsTextNVR").GetComponent<TextMeshProUGUI>();
+        lifeText = GameObject.Find("HealtTextNVR").GetComponent<TextMeshProUGUI>();
 
         //points = 0;
         bullets = maxBullets;

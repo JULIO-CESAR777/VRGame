@@ -2358,28 +2358,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.9999905, y: 4.000021, z: 0.2347503}
   m_Center: {x: 0.000012874603, y: 1.9999894, z: -0.21734874}
---- !u!64 &11971141968350566
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4815426518686331907}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!54 &12963803277562550
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2501,28 +2479,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &22869653622466964
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6565314452628320458}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!65 &23566129163997963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2679,28 +2635,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5624994839964207346}
   m_Mesh: {fileID: -6670026570728343880, guid: f4cc9d588b5c5f74e951184a310f51bd, type: 3}
---- !u!64 &67426447364664592
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3755617877797613125}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1925215126451958181, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!65 &72050817818439800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3649,28 +3583,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4961257061959329346}
   m_Mesh: {fileID: 7598932770895515877, guid: 5d2a61bf2efbcda4a87a824655541a1f, type: 3}
---- !u!64 &193693176828661522
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8458058406519906877}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6643498760879254026, guid: b3dc09a65081bd4458d36ba260e1b9b6, type: 3}
 --- !u!1 &196538367241228719
 GameObject:
   m_ObjectHideFlags: 0
@@ -3682,7 +3594,6 @@ GameObject:
   - component: {fileID: 5535400075242337497}
   - component: {fileID: 8262600385942251466}
   - component: {fileID: 1965016015900892085}
-  - component: {fileID: 2721506747941764397}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_8 (1)
   m_TagString: Untagged
@@ -3943,28 +3854,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.9999924, y: 4.002822, z: 0.22501609}
   m_Center: {x: 0.0000042915344, y: 2.0013928, z: -0.20677908}
---- !u!64 &217322893332815294
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3210050606306828863}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8797041901574785358, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!65 &226196478390962731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4072,7 +3961,6 @@ GameObject:
   - component: {fileID: 2753280685298320552}
   - component: {fileID: 3854966469577202577}
   - component: {fileID: 3293365595247426634}
-  - component: {fileID: 6554915916496737736}
   m_Layer: 10
   m_Name: NGF_Light_Plate
   m_TagString: Untagged
@@ -4916,28 +4804,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!64 &358744320825192107
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4315592524475848385}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6647624019548292907, guid: 64b60bbcc1dc2bc4393fafaff39a5320, type: 3}
 --- !u!64 &360754512794203678
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5207,9 +5073,9 @@ GameObject:
   - component: {fileID: 1608957003552729867}
   - component: {fileID: 46350849994912055}
   - component: {fileID: 5484340408063051631}
-  - component: {fileID: 6592916739091403481}
   - component: {fileID: 173716294652152078}
-  m_Layer: 10
+  - component: {fileID: 5484340408063051632}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5977,28 +5843,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &464042852028578375
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944601082782921664}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1925215126451958181, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!108 &468144904155952516
 Light:
   m_ObjectHideFlags: 0
@@ -10980,28 +10824,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.08078766, y: 0.42777252, z: 0.07397652}
   m_Center: {x: -0.2, y: 0.21422607, z: -0.18905163}
---- !u!64 &500798650683916358
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5476656912454973199}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6103451000640228994, guid: 6630c633826648d4fbabad91f4e3b679, type: 3}
 --- !u!4 &505853035971828730
 Transform:
   m_ObjectHideFlags: 0
@@ -11574,28 +11396,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!64 &550337122155277219
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457984868596634557}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8797041901574785358, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!65 &557208833659227186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13112,7 +12912,7 @@ GameObject:
   - component: {fileID: 5461478118208175063}
   - component: {fileID: 6578082889885381400}
   - component: {fileID: 1632587138295808772}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Coal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13839,7 +13639,7 @@ GameObject:
   - component: {fileID: 258018471750739244}
   - component: {fileID: 7995318849997407836}
   - component: {fileID: 8160494826314152351}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Coal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19698,35 +19498,13 @@ GameObject:
   - component: {fileID: 5720310761498602861}
   - component: {fileID: 4063118998498359923}
   - component: {fileID: 3770269591144772426}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Env_Floor_15 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &921825995044953890
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6207523845166183770}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6643498760879254026, guid: b3dc09a65081bd4458d36ba260e1b9b6, type: 3}
 --- !u!33 &922724083225771784
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19873,7 +19651,6 @@ GameObject:
   - component: {fileID: 1750660835182064769}
   - component: {fileID: 2754749135151172582}
   - component: {fileID: 4432507764313446977}
-  - component: {fileID: 8339979850357303753}
   m_Layer: 10
   m_Name: NGF_Light_Crystal_group_big_03 (4)
   m_TagString: Untagged
@@ -21386,7 +21163,6 @@ GameObject:
   - component: {fileID: 8468422729158066348}
   - component: {fileID: 8830076468006593010}
   - component: {fileID: 1335448816426898333}
-  - component: {fileID: 1614210629161219347}
   m_Layer: 10
   m_Name: NGF_Light_Plate
   m_TagString: Untagged
@@ -21804,7 +21580,7 @@ GameObject:
   - component: {fileID: 5484048623145056178}
   - component: {fileID: 4196681193682471358}
   - component: {fileID: 6363556043164827202}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Coal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23169,9 +22945,9 @@ GameObject:
   - component: {fileID: 4332662467519236519}
   - component: {fileID: 3702058061099776262}
   - component: {fileID: 5460053623884816102}
-  - component: {fileID: 6086358052973377784}
   - component: {fileID: 5127886766237522410}
-  m_Layer: 10
+  - component: {fileID: 5460053623884816103}
+  m_Layer: 0
   m_Name: NGF_Jug_05 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23296,7 +23072,6 @@ GameObject:
   - component: {fileID: 6854025110991770311}
   - component: {fileID: 4292609381681323158}
   - component: {fileID: 2412798230037793385}
-  - component: {fileID: 550337122155277219}
   m_Layer: 10
   m_Name: NGF_Light_Torch_03
   m_TagString: Untagged
@@ -29131,28 +28906,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3806536934937280743}
   m_Mesh: {fileID: -2229195614545373005, guid: e86ea30aa78aece40b9ca54e9a939ad9, type: 3}
---- !u!64 &1614210629161219347
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179333488237610737}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -721361649258531761, guid: 0e96646baccd37c45b0742740c8293cf, type: 3}
 --- !u!1 &1615493270301824504
 GameObject:
   m_ObjectHideFlags: 0
@@ -29267,28 +29020,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.55935687, y: 0.07295874, z: 0.578598}
   m_Center: {x: 0.0001796484, y: 0.44305867, z: -0.012608826}
---- !u!64 &1631967710411900345
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6484251083107872700}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!23 &1632587138295808772
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30058,7 +29789,7 @@ GameObject:
   - component: {fileID: 4365695933542610186}
   - component: {fileID: 6637861690236339317}
   - component: {fileID: 1868145935525286425}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30549,7 +30280,6 @@ GameObject:
   - component: {fileID: 3657602875109001622}
   - component: {fileID: 2560658269616468496}
   - component: {fileID: 8204728104313219702}
-  - component: {fileID: 2748045945862543491}
   m_Layer: 10
   m_Name: NGF_Light_Plate_holder (2)
   m_TagString: Untagged
@@ -31997,8 +31727,7 @@ GameObject:
   - component: {fileID: 4137436142280896955}
   - component: {fileID: 3181801773164510771}
   - component: {fileID: 8389803764759934738}
-  - component: {fileID: 464042852028578375}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_holder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39395,7 +39124,6 @@ GameObject:
   - component: {fileID: 1099594972132562678}
   - component: {fileID: 1606167981788943769}
   - component: {fileID: 6408434355115017989}
-  - component: {fileID: 3802172697580015343}
   m_Layer: 10
   m_Name: NGF_Light_Plate_holder (4)
   m_TagString: Untagged
@@ -40763,7 +40491,7 @@ GameObject:
   - component: {fileID: 6833539853202782467}
   - component: {fileID: 463593921732042870}
   - component: {fileID: 419365619568506632}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_holder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52768,28 +52496,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!64 &2721506747941764397
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196538367241228719}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3658167174516941135, guid: ad479b8443137bd459ec01f94176f89a, type: 3}
 --- !u!23 &2723019121098861481
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53004,28 +52710,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &2748045945862543491
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809102489184839695}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3700105168741526874, guid: 878f9f9004e4fef49aebc0ffdd8c4df4, type: 3}
 --- !u!1 &2752629093569752172
 GameObject:
   m_ObjectHideFlags: 0
@@ -56329,7 +56013,7 @@ GameObject:
   - component: {fileID: 1356223025900013492}
   - component: {fileID: 6208170173067383690}
   - component: {fileID: 679726715181785401}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_holder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56995,8 +56679,7 @@ GameObject:
   - component: {fileID: 1634339794966438189}
   - component: {fileID: 7056009637130162854}
   - component: {fileID: 6042548375071532539}
-  - component: {fileID: 217322893332815294}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57094,7 +56777,7 @@ GameObject:
   - component: {fileID: 2785677594453035264}
   - component: {fileID: 8486401566740533511}
   - component: {fileID: 3628374437441911630}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61644,7 +61327,7 @@ GameObject:
   - component: {fileID: 5596398728472278865}
   - component: {fileID: 3934298247318193184}
   - component: {fileID: 7358520697658977060}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Coal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62051,7 +61734,6 @@ GameObject:
   - component: {fileID: 6911423025431009324}
   - component: {fileID: 1532601792594224193}
   - component: {fileID: 2300752248725752332}
-  - component: {fileID: 67426447364664592}
   m_Layer: 10
   m_Name: NGF_Light_Torch_holder (8)
   m_TagString: Untagged
@@ -62335,28 +62017,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.55935687, y: 0.417935, z: 0.17404175}
   m_Center: {x: 0.0001796484, y: 0.65641207, z: -0.20826343}
---- !u!64 &3802172697580015343
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2290669953248624915}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3700105168741526874, guid: 878f9f9004e4fef49aebc0ffdd8c4df4, type: 3}
 --- !u!1 &3802643280903234550
 GameObject:
   m_ObjectHideFlags: 0
@@ -63169,7 +62829,7 @@ GameObject:
   - component: {fileID: 2570336518892251312}
   - component: {fileID: 2345418548093916587}
   - component: {fileID: 649828818314354361}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76384,7 +76044,6 @@ GameObject:
   - component: {fileID: 6961757681884135744}
   - component: {fileID: 6177891489970396963}
   - component: {fileID: 5101171415043244760}
-  - component: {fileID: 358744320825192107}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_7 (1)
   m_TagString: Untagged
@@ -77173,9 +76832,9 @@ GameObject:
   - component: {fileID: 6994990328802378049}
   - component: {fileID: 8213721093658615814}
   - component: {fileID: 4040656168666750005}
-  - component: {fileID: 6413486149221148421}
   - component: {fileID: 6167289418696675680}
-  m_Layer: 10
+  - component: {fileID: 8213721093658615815}
+  m_Layer: 0
   m_Name: NGF_Jug_05 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79080,7 +78739,7 @@ GameObject:
   - component: {fileID: 6403030522354947225}
   - component: {fileID: 3100799653306487266}
   - component: {fileID: 6936081939686011604}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Shelf_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80176,9 +79835,9 @@ GameObject:
   - component: {fileID: 2367579607434016478}
   - component: {fileID: 9039512955073911293}
   - component: {fileID: 1764088307828929520}
-  - component: {fileID: 11971141968350566}
   - component: {fileID: 3819250554128339672}
-  m_Layer: 10
+  - component: {fileID: 9039512955073911294}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80464,9 +80123,9 @@ GameObject:
   - component: {fileID: 8119773649647833759}
   - component: {fileID: 4808139701594906323}
   - component: {fileID: 5670196005166098565}
-  - component: {fileID: 5490358217802975801}
   - component: {fileID: 3481888072162130896}
-  m_Layer: 10
+  - component: {fileID: 8119773649647833760}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82903,7 +82562,6 @@ GameObject:
   - component: {fileID: 5356933813478197539}
   - component: {fileID: 7922551924065937492}
   - component: {fileID: 7805955265805926099}
-  - component: {fileID: 6973025367946001147}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_9 (1)
   m_TagString: Untagged
@@ -86093,6 +85751,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5460053623884816103
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440414310942512907}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33557484, y: 0.45854887, z: 0.27922818}
+  m_Center: {x: 0.0000038146973, y: 0.22927491, z: -0.000000014901167}
 --- !u!4 &5461478118208175063
 Transform:
   m_ObjectHideFlags: 0
@@ -86167,7 +85846,6 @@ GameObject:
   - component: {fileID: 3840867935837310336}
   - component: {fileID: 4339114593072549282}
   - component: {fileID: 656237741536843086}
-  - component: {fileID: 500798650683916358}
   m_Layer: 10
   m_Name: NGF_Env_Floor_dust_5 (1)
   m_TagString: Untagged
@@ -86361,6 +86039,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5484340408063051632
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387236298294791354}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000003822148}
 --- !u!65 &5489679488937603573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86382,28 +86081,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 0.05451419, z: 4}
   m_Center: {x: 0, y: -0.03725657, z: 0}
---- !u!64 &5490358217802975801
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4836200549519664563}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!4 &5492840146512877317
 Transform:
   m_ObjectHideFlags: 0
@@ -89285,8 +88962,7 @@ GameObject:
   - component: {fileID: 4206786038018019105}
   - component: {fileID: 3664823477864272738}
   - component: {fileID: 5408233713074388912}
-  - component: {fileID: 7448750403718238995}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90715,8 +90391,7 @@ GameObject:
   - component: {fileID: 7021923972753544394}
   - component: {fileID: 8177578179957564706}
   - component: {fileID: 1873754839032992136}
-  - component: {fileID: 7663003532503720799}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91553,28 +91228,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14332097523695488}
   m_Mesh: {fileID: -723917720676301023, guid: 2ec7da4a5d7414f4b8c8e757a3c1f5a0, type: 3}
---- !u!64 &6086358052973377784
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440414310942512907}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6643498760879254026, guid: b3dc09a65081bd4458d36ba260e1b9b6, type: 3}
 --- !u!23 &6090860395290258201
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -92534,15 +92187,36 @@ GameObject:
   - component: {fileID: 4294544957433466944}
   - component: {fileID: 2207187123972613386}
   - component: {fileID: 853927130167531847}
-  - component: {fileID: 921825995044953890}
   - component: {fileID: 4731007233952346382}
-  m_Layer: 10
+  - component: {fileID: 6207523845166183771}
+  m_Layer: 0
   m_Name: NGF_Jug_05 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &6207523845166183771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6207523845166183770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33557487, y: 0.45854887, z: 0.2792282}
+  m_Center: {x: 1.2280851e-15, y: 0.22927491, z: 0.000003799796}
 --- !u!23 &6208170173067383690
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -94014,9 +93688,9 @@ GameObject:
   - component: {fileID: 7934701058698700228}
   - component: {fileID: 2457725331571760713}
   - component: {fileID: 1999821632132553035}
-  - component: {fileID: 8397362972910738416}
   - component: {fileID: 2347080265934890262}
-  m_Layer: 10
+  - component: {fileID: 7934701058698700229}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94386,28 +94060,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6413486149221148421
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4423131611170302446}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6643498760879254026, guid: b3dc09a65081bd4458d36ba260e1b9b6, type: 3}
 --- !u!1 &6415971079196175782
 GameObject:
   m_ObjectHideFlags: 0
@@ -95033,9 +94685,9 @@ GameObject:
   - component: {fileID: 7286638627232786068}
   - component: {fileID: 6724729470242535956}
   - component: {fileID: 3178241830482808853}
-  - component: {fileID: 1631967710411900345}
   - component: {fileID: 4662498008037133976}
-  m_Layer: 10
+  - component: {fileID: 7286638627232786069}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95053,7 +94705,7 @@ GameObject:
   - component: {fileID: 6674742916532237429}
   - component: {fileID: 6895244634140352048}
   - component: {fileID: 4754723226684302620}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Crystal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95764,28 +95416,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &6554915916496737736
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251621367157040400}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -721361649258531761, guid: 0e96646baccd37c45b0742740c8293cf, type: 3}
 --- !u!65 &6558380395547899142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95874,9 +95504,9 @@ GameObject:
   - component: {fileID: 5124575053433581591}
   - component: {fileID: 6710825340401443590}
   - component: {fileID: 404734289327578882}
-  - component: {fileID: 22869653622466964}
   - component: {fileID: 129791743113624972}
-  m_Layer: 10
+  - component: {fileID: 6710825340401443591}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96054,28 +95684,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4759294254122078336}
   m_Mesh: {fileID: 6736501723066374209, guid: 6719635bc85a50a46b061f10f73ad139, type: 3}
---- !u!64 &6592916739091403481
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387236298294791354}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!33 &6593885039166926240
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -97025,6 +96633,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6565314452628320458}
   m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
+--- !u!65 &6710825340401443591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6565314452628320458}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000000007450582}
 --- !u!4 &6711982394395082333
 Transform:
   m_ObjectHideFlags: 0
@@ -97370,7 +96999,7 @@ GameObject:
   - component: {fileID: 8597376531611960466}
   - component: {fileID: 425476401409525938}
   - component: {fileID: 6241342600839708685}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Shelf_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103703,28 +103332,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6933972978975291169
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8434455828408115312}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6643498760879254026, guid: b3dc09a65081bd4458d36ba260e1b9b6, type: 3}
 --- !u!65 &6936081939686011604
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103809,7 +103416,7 @@ GameObject:
   - component: {fileID: 9002557139601906174}
   - component: {fileID: 754168673863254794}
   - component: {fileID: 391234592678783919}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Shelf_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104258,28 +103865,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2485281452739046213, guid: 43bfa79e9fa8fc940899efc973054f56, type: 3}
---- !u!64 &6973025367946001147
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5108247285240165518}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2962684652054757330, guid: 385e5c2b97b2d5b4fb89060ce09221be, type: 3}
 --- !u!65 &6977033764961763493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106939,7 +106524,7 @@ GameObject:
   - component: {fileID: 5926455855787174663}
   - component: {fileID: 884853773545530093}
   - component: {fileID: 5730460169505082258}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Crystal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107244,6 +106829,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 818929731767400894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7286638627232786069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484251083107872700}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000000007450582}
 --- !u!1 &7287911999249612160
 GameObject:
   m_ObjectHideFlags: 0
@@ -107489,28 +107095,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1315422, y: 3.4351368, z: 0.59585166}
   m_Center: {x: 1.398598, y: 1.694406, z: 0.005586952}
---- !u!64 &7333342542045307440
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9112224307752223936}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!65 &7334980739484974735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -108445,28 +108029,6 @@ Transform:
   - {fileID: 6674742916532237429}
   m_Father: {fileID: 7286386468816727652}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7418991181318796824
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8461069052457552930}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1925215126451958181, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!64 &7419139048052193191
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -108645,28 +108207,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7448750403718238995
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5808206480016247190}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8797041901574785358, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!33 &7452653312933175325
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -109179,7 +108719,7 @@ GameObject:
   - component: {fileID: 2403794619783885522}
   - component: {fileID: 6411758466613728944}
   - component: {fileID: 360754512794203678}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_holder (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109544,28 +109084,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7581126892189907332
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8569801482340945481}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1925215126451958181, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!108 &7584088303236553357
 Light:
   m_ObjectHideFlags: 0
@@ -115200,28 +114718,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2473576600681526520}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7663003532503720799
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5995634910769793838}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8797041901574785358, guid: fcc639ee610cb0f4a914fa108b8e54be, type: 3}
 --- !u!65 &7663719333934792783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116576,7 +116072,7 @@ GameObject:
   - component: {fileID: 2691577855742756523}
   - component: {fileID: 6514079421226380698}
   - component: {fileID: 5024187499500706420}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Coal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117112,6 +116608,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 818929731767400894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7934701058698700229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6377629416805560638}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000000007450582}
 --- !u!65 &7939581753546356618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -118387,7 +117904,7 @@ GameObject:
   - component: {fileID: 6805827547810200727}
   - component: {fileID: 757283774825483418}
   - component: {fileID: 4079556863028240133}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Crystal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118540,7 +118057,7 @@ GameObject:
   - component: {fileID: 1580203678385162035}
   - component: {fileID: 1796554486562008372}
   - component: {fileID: 6196635125501970204}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Crystal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118909,6 +118426,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 818929731767400894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8119773649647833760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4836200549519664563}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000000007450582}
 --- !u!54 &8119831728571634438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -119602,6 +119140,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4423131611170302446}
   m_Mesh: {fileID: -6643498760879254026, guid: b3dc09a65081bd4458d36ba260e1b9b6, type: 3}
+--- !u!65 &8213721093658615815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423131611170302446}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33557484, y: 0.45854887, z: 0.27922818}
+  m_Center: {x: 0.000002861023, y: 0.22927444, z: -0.000000014901165}
 --- !u!33 &8215855763909559326
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -120336,7 +119895,7 @@ GameObject:
   - component: {fileID: 8929422154412455042}
   - component: {fileID: 6778622880650201639}
   - component: {fileID: 147446680220883137}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Coal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120774,28 +120333,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2303294935955220744}
   m_Mesh: {fileID: 5022970117304543610, guid: 5f975194efd8f0e45abb45c903fe5b0e, type: 3}
---- !u!64 &8339979850357303753
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951470853946729963}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1671808755610670523, guid: 260d7c028561cdd4e881164cd4c10d63, type: 3}
 --- !u!4 &8340939414385041777
 Transform:
   m_ObjectHideFlags: 0
@@ -121358,28 +120895,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.08078766, y: 0.42777252, z: 0.07397652}
   m_Center: {x: 0.1939888, y: 0.21422607, z: -0.18905163}
---- !u!64 &8397362972910738416
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6377629416805560638}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!1 &8400772804348150611
 GameObject:
   m_ObjectHideFlags: 0
@@ -121608,9 +121123,9 @@ GameObject:
   - component: {fileID: 6682873569505890461}
   - component: {fileID: 9097902167810568406}
   - component: {fileID: 5255722058661434617}
-  - component: {fileID: 6933972978975291169}
   - component: {fileID: 5373428897301662836}
-  m_Layer: 10
+  - component: {fileID: 9097902167810568407}
+  m_Layer: 0
   m_Name: NGF_Jug_05 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121668,7 +121183,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 11db42eade6462e439f53c6fe04d4566, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 30cfef4aa4c9d8e41bd98e6e8a982bc9, type: 2}
   m_BuildHeightMesh: 0
 --- !u!33 &8442184121919619370
 MeshFilter:
@@ -121826,15 +121341,36 @@ GameObject:
   - component: {fileID: 1514626386724225840}
   - component: {fileID: 4507409030205794456}
   - component: {fileID: 5510903605535704834}
-  - component: {fileID: 193693176828661522}
   - component: {fileID: 6246183991293718240}
-  m_Layer: 10
+  - component: {fileID: 8458058406519906878}
+  m_Layer: 0
   m_Name: NGF_Jug_05 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8458058406519906878
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458058406519906877}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33557487, y: 0.45854887, z: 0.2792282}
+  m_Center: {x: -0.0000019073486, y: 0.22927491, z: 0.000003799796}
 --- !u!4 &8458862490605613790
 Transform:
   m_ObjectHideFlags: 0
@@ -121861,8 +121397,7 @@ GameObject:
   - component: {fileID: 4334699648994318976}
   - component: {fileID: 4490096105545836789}
   - component: {fileID: 1625925753078379404}
-  - component: {fileID: 7418991181318796824}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_holder (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122562,7 +122097,7 @@ GameObject:
   - component: {fileID: 9060551937207405876}
   - component: {fileID: 2058959375776245819}
   - component: {fileID: 7972411152429960550}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Crystal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122753,8 +122288,7 @@ GameObject:
   - component: {fileID: 964596737909899905}
   - component: {fileID: 1969310710177202834}
   - component: {fileID: 7580247229881820099}
-  - component: {fileID: 7581126892189907332}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Torch_holder (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123985,7 +123519,7 @@ GameObject:
   - component: {fileID: 4595265134846166077}
   - component: {fileID: 6319962636850003623}
   - component: {fileID: 5690417273532340749}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: NGF_Light_Crystal_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125127,28 +124661,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8877606847994460006
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9080299592898477946}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
 --- !u!33 &8879242813685827651
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -131263,6 +130775,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4815426518686331907}
   m_Mesh: {fileID: -1550347052436426655, guid: 70784292ab3e04444ab6a4f2c4ad27bd, type: 3}
+--- !u!65 &9039512955073911294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815426518686331907}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000000007450582}
 --- !u!23 &9041555369835372800
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -131844,15 +131377,36 @@ GameObject:
   - component: {fileID: 3339801352700478365}
   - component: {fileID: 332225829295637496}
   - component: {fileID: 1101946742614415609}
-  - component: {fileID: 8877606847994460006}
   - component: {fileID: 1812075550983782222}
-  m_Layer: 10
+  - component: {fileID: 9080299592898477947}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &9080299592898477947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9080299592898477946}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000000007450582}
 --- !u!23 &9080589643357892983
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -131982,6 +131536,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8434455828408115312}
   m_Mesh: {fileID: -6643498760879254026, guid: b3dc09a65081bd4458d36ba260e1b9b6, type: 3}
+--- !u!65 &9097902167810568407
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434455828408115312}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33557484, y: 0.45854887, z: 0.27922818}
+  m_Center: {x: 0.0000019073486, y: 0.22927491, z: 0.0000047534704}
 --- !u!33 &9097970399482091881
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -132165,15 +131740,36 @@ GameObject:
   - component: {fileID: 4802172922846717916}
   - component: {fileID: 131463680644391716}
   - component: {fileID: 4707278655555479249}
-  - component: {fileID: 7333342542045307440}
   - component: {fileID: 2917571507741713211}
-  m_Layer: 10
+  - component: {fileID: 9112224307752223937}
+  m_Layer: 0
   m_Name: NGF_Jug_02 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &9112224307752223937
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9112224307752223936}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16191597, y: 0.63457316, z: 0.18696448}
+  m_Center: {x: -0.038117193, y: 0.31728658, z: -0.000003822148}
 --- !u!33 &9121014832655614418
 MeshFilter:
   m_ObjectHideFlags: 0
