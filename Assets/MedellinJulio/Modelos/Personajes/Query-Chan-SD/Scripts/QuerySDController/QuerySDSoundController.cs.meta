@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a5daa679c7224210b92b9e381e1b05a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35616
+  packageName: '"Query-Chan" model SD'
+  packageVersion: 2.1.0
+  assetPath: Assets/PQAssets/Query-Chan-SD/Scripts/QuerySDController/QuerySDSoundController.cs
+  uploadId: 263109

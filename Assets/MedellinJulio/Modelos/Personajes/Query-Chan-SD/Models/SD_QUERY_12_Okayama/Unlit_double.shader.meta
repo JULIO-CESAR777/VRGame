@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7162f7f98a920f54897c635ea994c1bc
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35616
+  packageName: '"Query-Chan" model SD'
+  packageVersion: 2.1.0
+  assetPath: Assets/PQAssets/Query-Chan-SD/Models/SD_QUERY_12_Okayama/Unlit_double.shader
+  uploadId: 263109
