@@ -66,7 +66,10 @@ public class Pistola : MonoBehaviour
             //Esto del game manager no se si funcione pero ojala y si
             GameManager.instance.ChangeBulletText(GameManager.instance.bullets);
         }
-        
+        6 
+0
+            
+             
     }
 
 }
