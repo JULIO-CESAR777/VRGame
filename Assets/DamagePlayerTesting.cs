@@ -26,8 +26,11 @@ public class DamagePlayerTesting : MonoBehaviour
                 GameManager.instance.DmgPlayer(25);
                 Debug.Log("Haciendo daño al jugador.");
 
-                // Desactiva el ataque por un tiempo (espera de 1 segundo)
-                StartCoroutine(AttackCooldown());
+                // Inicia el cooldown solo si no está en proceso de cooldown
+                if (canAttack)
+                {
+                    StartCoroutine(AttackCooldown());
+                }
             }
             else
             {

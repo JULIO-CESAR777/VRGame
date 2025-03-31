@@ -1,5 +1,3 @@
-using NaughtyAttributes;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI; // Para trabajar con UI
@@ -18,10 +16,14 @@ public class MenuNoVR : MonoBehaviour
 
     void Start()
     {
-        // Asegúrate de que el menú de pausa está oculto al inicio
-        pauseMenuUI.SetActive(false);
+        pauseMenuUI = GameObject.Find("MENU");
+        resumeButton = GameObject.Find("Resume").GetComponent<Button>();
+        SalirButton = GameObject.Find("Salir").GetComponent<Button>();
+        MenuButton = GameObject.Find("Menuprinci").GetComponent<Button>();
+        SceneZombiesButton = GameObject.Find("pp").GetComponent<Button>();
+        SceneTiroButton = GameObject.Find("Tiroteo").GetComponent<Button>();
 
-
+        
         resumeButton.onClick.AddListener(ResumeGame);
         SalirButton.onClick.AddListener(QuitGame);
         MenuButton.onClick.AddListener(SceneMenuPrincipal);
@@ -30,17 +32,19 @@ public class MenuNoVR : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "DUNGEON")
         {
-          
-           SceneTiroButton.gameObject.SetActive(false);
+            SceneZombiesButton.gameObject.SetActive(false);
+           
 
         }
 
         if (SceneManager.GetActiveScene().name == "PracticaDeTiroNOVR")
         {
-
-            SceneZombiesButton.gameObject.SetActive(false);  // Aquí desactivamos el botón
+            SceneTiroButton.gameObject.SetActive(false);
+            // Aquí desactivamos el botón
 
         }
+
+        pauseMenuUI.SetActive(false);
     }
 
     void Update()
@@ -62,6 +66,7 @@ public class MenuNoVR : MonoBehaviour
         Time.timeScale = 0f; // Detiene el tiempo (pausa el juego)
         pauseMenuUI.SetActive(true); // Muestra el menú de pausa
         Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     // Función para reanudar el juego
@@ -72,6 +77,7 @@ public class MenuNoVR : MonoBehaviour
         Time.timeScale = 1f; // Reanuda el tiempo
         pauseMenuUI.SetActive(false); // Oculta el menú de pausa
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
         Debug.Log("Resumir");
         
     }
@@ -82,13 +88,18 @@ public class MenuNoVR : MonoBehaviour
     // Función para salir del juego (puedes cargar otra escena si lo deseas)
     public void QuitGame()
     {
-         Application.Quit(); // Sale del juego en una compilación final
+
+
+        Cursor.lockState = CursorLockMode.Confined;
+        Application.Quit(); // Sale del juego en una compilación final
         Debug.Log("Salir");
     }
 
 
     public void SceneZombies()
     {
+        isPaused = false;
+        Time.timeScale = 1f;
         Debug.Log("Zombies");
         SceneManager.LoadScene("DUNGEON");
         
@@ -96,14 +107,18 @@ public class MenuNoVR : MonoBehaviour
 
     public void SceneTiro()
     {
+        isPaused = false;
+        Time.timeScale = 1f;
         Debug.Log("Tiro");
         SceneManager.LoadScene("PracticaDeTiroNOVR");
        
     }
     public void SceneMenuPrincipal()
     {
+        isPaused = false;
+        Time.timeScale = 1f;
         Debug.Log("Principal");
-        SceneManager.LoadScene("MenuSeleccion");
+        SceneManager.LoadScene("MenuSeleccionNoVR");
        
     }
 }

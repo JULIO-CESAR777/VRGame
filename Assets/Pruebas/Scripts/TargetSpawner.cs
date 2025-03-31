@@ -13,19 +13,15 @@ public class TargetSpawner : MonoBehaviour
     private List<GameObject> targets = new List<GameObject>();
     private void Start()
     {
-
-
-        SpawnTargets();
-    }
-    public void SpawnTargets()
-    {
-
         // Eliminar todos los objetivos existentes antes de crear nuevos
         foreach (var target in targets)
         {
             Destroy(target);
         }
         targets.Clear(); // Limpiar la lista de objetivos
+    }
+    public void SpawnTargets()
+    {
 
         // A copy of the posible spawns
         List<Transform> availableSpawnPoints = new List<Transform>(spawnPoints); 

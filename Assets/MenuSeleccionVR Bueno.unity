@@ -1742,7 +1742,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 632590707}
         m_TargetAssemblyTypeName: CanvasHide, Assembly-CSharp
-        m_MethodName: SceneTiroVR
+        m_MethodName: SceneZombiesVR
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7131,6 +7131,10 @@ PrefabInstance:
     - target: {fileID: 6789531245884842283, guid: b09a61fd2f684764fbe66a6006888dc9, type: 3}
       propertyPath: m_LocalPosition.z
       value: -7.512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915053288132568613, guid: b09a61fd2f684764fbe66a6006888dc9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9003706118140032636, guid: b09a61fd2f684764fbe66a6006888dc9, type: 3}
       propertyPath: m_Name
@@ -12936,7 +12940,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 632590707}
         m_TargetAssemblyTypeName: CanvasHide, Assembly-CSharp
-        m_MethodName: SceneZombiesVR
+        m_MethodName: SceneTiroVR
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

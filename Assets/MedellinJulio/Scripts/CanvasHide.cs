@@ -32,6 +32,6 @@ public class CanvasHide : MonoBehaviour
 
     public void SceneMenuPrincipalVR()
     {
-        SceneManager.LoadScene("MenuSeleccion");
+        SceneManager.LoadScene("MenuSeleccionVR Bueno");
     }
 }

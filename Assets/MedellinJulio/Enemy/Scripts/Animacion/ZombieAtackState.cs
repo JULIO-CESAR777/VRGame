@@ -27,7 +27,7 @@ public class ZombieAtackState : StateMachineBehaviour
             animator.SetBool("isAtacking", false);
             agent.isStopped = false; // Permitir que el zombie vuelva a moverse
         }
-       
+
 
         LookAtPlayer();
     }

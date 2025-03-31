@@ -262,11 +262,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1827390524189234713, guid: 7faae0a8c3c62324190b08c5ee6bc7f1, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3461851751330973254, guid: 7faae0a8c3c62324190b08c5ee6bc7f1, type: 3}
       propertyPath: m_Name
       value: Player GUS
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976527526420779805, guid: 7faae0a8c3c62324190b08c5ee6bc7f1, type: 3}
+      propertyPath: usingBullets
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8848150933581430143, guid: 7faae0a8c3c62324190b08c5ee6bc7f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -313,6 +317,55 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7faae0a8c3c62324190b08c5ee6bc7f1, type: 3}
+--- !u!1 &532072080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 532072082}
+  - component: {fileID: 532072081}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &532072081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532072080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 0}
+--- !u!4 &532072082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532072080}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.956787, y: -14.254248, z: 49.987057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &650812579
 GameObject:
   m_ObjectHideFlags: 0
@@ -365320,7 +365373,7 @@ GameObject:
   - component: {fileID: 6525933348712877892}
   - component: {fileID: 6744071446506120243}
   m_Layer: 5
-  m_Name: Zombies
+  m_Name: pp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438950,7 +439003,7 @@ GameObject:
   - component: {fileID: 644446210968627747}
   - component: {fileID: 9094459117218919775}
   m_Layer: 5
-  m_Name: Menu
+  m_Name: Menuprinci
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -471017,11 +471070,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 4654449595405482966}
-  resumeButton: {fileID: 0}
-  SalirButton: {fileID: 0}
+  resumeButton: {fileID: 6308626533169467609}
+  SalirButton: {fileID: 8501434143807787706}
   MenuButton: {fileID: 0}
-  SceneZombiesButton: {fileID: 5413828637873277264}
-  SceneTiroButton: {fileID: 1443259163733964380}
+  SceneZombiesButton: {fileID: 6744071446506120243}
+  SceneTiroButton: {fileID: 7144081753407284448}
 --- !u!1 &7477449828002335858
 GameObject:
   m_ObjectHideFlags: 0
@@ -554952,3 +555005,4 @@ SceneRoots:
   - {fileID: 779528508}
   - {fileID: 519723515215563697}
   - {fileID: 332826980}
+  - {fileID: 532072082}

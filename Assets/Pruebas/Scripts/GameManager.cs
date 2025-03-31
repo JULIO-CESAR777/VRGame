@@ -52,14 +52,14 @@ public class GameManager : MonoBehaviour
         
 
         // VR
-        //bulletText = GameObject.Find("BulletText").GetComponent<TextMeshProUGUI>();
-        //pointsText = GameObject.Find("PointsText").GetComponent<TextMeshProUGUI>();
-        //lifeText = GameObject.Find("HealthText").GetComponent<TextMeshProUGUI>();
+        bulletText = GameObject.Find("BulletText").GetComponent<TextMeshProUGUI>();
+        pointsText = GameObject.Find("PointsText").GetComponent<TextMeshProUGUI>();
+        lifeText = GameObject.Find("HealthText").GetComponent<TextMeshProUGUI>();
 
         //No VR
-        bulletText = GameObject.Find("BulletCountNVR").GetComponent<TextMeshProUGUI>();
-        pointsText = GameObject.Find("PointsTextNVR").GetComponent<TextMeshProUGUI>();
-        lifeText = GameObject.Find("HealtTextNVR").GetComponent<TextMeshProUGUI>();
+       // pointsText = GameObject.Find("PointsTextNVR").GetComponent<TextMeshProUGUI>();
+        //bulletText = GameObject.Find("BulletCountNVR").GetComponent<TextMeshProUGUI>();
+        //lifeText = GameObject.Find("HealtTextNVR").GetComponent<TextMeshProUGUI>();
 
         //points = 0;
         bullets = maxBullets;
@@ -86,7 +86,10 @@ public class GameManager : MonoBehaviour
 
     public void ChangeBulletText(int amount)
     {
-        bulletText.text = amount.ToString() + "/20";
+        if (usingBullets) bulletText.text = amount.ToString() + "/20";
+        else {
+            bulletText.text = "";
+        }
     }
 
     public void ChangeLifeText(int amount)
@@ -96,12 +99,15 @@ public class GameManager : MonoBehaviour
 
     public void ChangeDeathScene()
     {
-        //Cambia a escena de muerte jijijjiijiji
-        Debug.Log("murio");
+        // No VR
+        //SceneManager.LoadScene("MenuSeleccionNoVR");
+
+        // VR
+        SceneManager.LoadScene("MenuSeleccionVR Bueno");
     }
 
     public void BuyBullets(int losepoints, int someBullets) {
-        Debug.Log("entro a comprar balas");
+        
         if (points < losepoints) return;
 
         points -= losepoints;
@@ -144,7 +150,7 @@ public class GameManager : MonoBehaviour
 
             _vignette.intensity.value = intensity;
 
-            print("se esta modificando alv");
+            
 
             // Esperar 0.1 segundos entre cada decremento
             yield return new WaitForSeconds(0.1f);
