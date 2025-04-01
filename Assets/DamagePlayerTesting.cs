@@ -1,49 +1,57 @@
 using UnityEngine;
 using System.Collections;
 
-public class DamagePlayerTesting : MonoBehaviour
+public class EnemyAttack : MonoBehaviour
 {
-    private Animator zombieAnimator;  // Referencia al Animator del zombie
-    private bool canAttack = true;    // Control para verificar si el zombie puede atacar
-    public float attackCooldown = 1f; // Tiempo de espera entre ataques (1 segundo)
+    // Tiempo de espera entre ataques
+    public float damageCooldown = 1f;
+    private bool canDamage = true;
+
+    // Tiempo de espera después de entrar al estado de ataque
+    public float waitBeforeAttack = 1f;
+
+    // Referencia al Animator del padre
+    private Animator parentAnimator;
 
     private void Start()
     {
-        // Busca el Animator en el padre del objeto (asumiendo que la esfera está como hijo del zombie)
-        zombieAnimator = GetComponentInParent<Animator>();
+        // Obtener el Animator del objeto padre
+        parentAnimator = GetComponentInParent<Animator>();
     }
 
+    // Método que se llama cuando otro collider entra en el trigger de este objeto
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && canAttack)
+        // Verificamos si el objeto con el que colisionamos es el jugador y si podemos hacer daño
+        if (other.CompareTag("Player") && canDamage)
         {
-            Debug.Log("La esfera golpeó al jugador.");
-
-            // Verifica si el zombie está en estado de ataque antes de hacer daño
-            if (zombieAnimator != null && zombieAnimator.GetBool("isAtacking"))
+            // Verificamos si el zombie está en estado de ataque
+            if (parentAnimator.GetBool("isAtacking"))
             {
-                // Llama al método de daño en el GameManager
-                GameManager.instance.DmgPlayer(25);
-                Debug.Log("Haciendo daño al jugador.");
-
-                // Inicia el cooldown solo si no está en proceso de cooldown
-                if (canAttack)
-                {
-                    StartCoroutine(AttackCooldown());
-                }
-            }
-            else
-            {
-                Debug.Log("El zombie no está atacando, no se hace daño.");
+                // Iniciamos la espera antes de hacer daño
+                StartCoroutine(WaitBeforeDamage(other));
             }
         }
     }
 
-    // Corutina para esperar el tiempo de cooldown entre ataques
-    private IEnumerator AttackCooldown()
+    // Coroutine para esperar antes de hacer daño al jugador
+    private IEnumerator WaitBeforeDamage(Collider player)
     {
-        canAttack = false; // Desactiva el ataque
-        yield return new WaitForSeconds(attackCooldown); // Espera durante el cooldown
-        canAttack = true; // Permite el siguiente ataque
+        // Espera el tiempo especificado
+        yield return new WaitForSeconds(waitBeforeAttack);
+
+        // Ahora que ha pasado el tiempo de espera, hacer daño al jugador
+        GameManager.instance.DmgPlayer(25);
+
+        // Iniciamos la espera para poder hacer daño de nuevo
+        StartCoroutine(DamageCooldown());
+    }
+
+    // Coroutine que espera un segundo antes de permitir hacer daño de nuevo
+    private IEnumerator DamageCooldown()
+    {
+        canDamage = false;
+        yield return new WaitForSeconds(damageCooldown);
+        canDamage = true;
     }
 }
