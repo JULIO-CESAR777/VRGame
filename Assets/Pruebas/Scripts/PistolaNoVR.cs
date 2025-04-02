@@ -9,7 +9,7 @@ public class PistolaNoVR : MonoBehaviour
     //public int bullets;
     public bool usingBullets = false;
     
-    public GameObject bulletPrefab;
+    //public GameObject bulletPrefab;
 
     private int bulletDamage = 20;
     // RB
@@ -25,6 +25,8 @@ public class PistolaNoVR : MonoBehaviour
     // Raycast
     public float raycastDistance = 50f;
     public Color rayColor = Color.red;
+
+    public MenuNoVR menu;
     
 
     private void Start()
@@ -43,10 +45,10 @@ public class PistolaNoVR : MonoBehaviour
     public void Shoot()
     {
 
-        if (usingBullets && GameManager.instance.bullets <= 0) return;
+        if (usingBullets && GameManager.instance.bullets <= 0 && menu.isPaused == true) return;
         
         //Play the audio sound
-        if (shootSound)
+        if (shootSound && GameManager.instance.bullets > 0)
             AudioSource.PlayClipAtPoint(shootSound, transform.position, shootVolume);
             
         //Make a RayCast
@@ -68,7 +70,7 @@ public class PistolaNoVR : MonoBehaviour
         //Make some recoil
         //body.AddForce(barrelTip.transform.up * recoilPower * 5, ForceMode.Impulse);
 
-        if (usingBullets)
+        if (usingBullets && menu.isPaused == false)
         {
             GameManager.instance.bullets--;
             //Esto del game manager no se si funcione pero ojala y si

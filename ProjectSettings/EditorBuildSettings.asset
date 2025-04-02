@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MenuSeleccionVR Bueno.unity
     guid: bebbb03c6f30cf140914438c9434b975
-  - enabled: 0
+  - enabled: 1
     path: Assets/MenuSeleccionNoVR.unity
     guid: bcb07ab70dd0f6747a4d76455a530fa5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Dungeon.unity
     guid: e51ddd7e8f1da3e4d851455837ac0c76
-  - enabled: 0
+  - enabled: 1
     path: Assets/PracticaDeTiroNOVR.unity
     guid: 1fe295b49800cba4fbd90e9e2c1f41d6
   - enabled: 1

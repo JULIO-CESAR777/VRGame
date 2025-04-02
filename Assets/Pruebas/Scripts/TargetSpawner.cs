@@ -19,6 +19,8 @@ public class TargetSpawner : MonoBehaviour
             Destroy(target);
         }
         targets.Clear(); // Limpiar la lista de objetivos
+        //NOVR
+        SpawnTargets();
     }
     public void SpawnTargets()
     {

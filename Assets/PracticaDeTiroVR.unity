@@ -1370,7 +1370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 958cdbacef3a26a40a78c117f2b5b77e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 1
+  damageCooldown: 1
+  waitBeforeAttack: 1
 --- !u!65 &1012766512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3075,7 +3076,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1620945162234112803}
         m_TargetAssemblyTypeName: CanvasHide, Assembly-CSharp
-        m_MethodName: SceneMenuPrincipal
+        m_MethodName: SceneMenuPrincipalVR
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

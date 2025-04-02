@@ -17,6 +17,7 @@ public class EnemyAttack : MonoBehaviour
     {
         // Obtener el Animator del objeto padre
         parentAnimator = GetComponentInParent<Animator>();
+        canDamage = true;
     }
 
     // Método que se llama cuando otro collider entra en el trigger de este objeto
@@ -37,6 +38,7 @@ public class EnemyAttack : MonoBehaviour
     // Coroutine para esperar antes de hacer daño al jugador
     private IEnumerator WaitBeforeDamage(Collider player)
     {
+        canDamage = false;
         // Espera el tiempo especificado
         yield return new WaitForSeconds(waitBeforeAttack);
 
@@ -50,7 +52,6 @@ public class EnemyAttack : MonoBehaviour
     // Coroutine que espera un segundo antes de permitir hacer daño de nuevo
     private IEnumerator DamageCooldown()
     {
-        canDamage = false;
         yield return new WaitForSeconds(damageCooldown);
         canDamage = true;
     }

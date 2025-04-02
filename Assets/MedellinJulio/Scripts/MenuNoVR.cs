@@ -12,7 +12,7 @@ public class MenuNoVR : MonoBehaviour
     public Button SceneTiroButton;   // Botón para la escena de tiro
    
 
-    private bool isPaused = false; // Para verificar si el juego está en pausa
+    public bool isPaused = false; // Para verificar si el juego está en pausa
 
     void Start()
     {
@@ -30,7 +30,7 @@ public class MenuNoVR : MonoBehaviour
         SceneZombiesButton.onClick.AddListener(SceneZombies);
         SceneTiroButton.onClick.AddListener(SceneTiro);
 
-        if (SceneManager.GetActiveScene().name == "DUNGEON")
+        if (SceneManager.GetActiveScene().name == "Dungeon")
         {
             SceneZombiesButton.gameObject.SetActive(false);
            

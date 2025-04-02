@@ -86,10 +86,15 @@ public class GameManager : MonoBehaviour
 
     public void ChangeBulletText(int amount)
     {
-        if (usingBullets) bulletText.text = amount.ToString() + "/20";
+        if (bullets <= 0) {
+            bullets = 0;
+
+        }
+        if (usingBullets) bulletText.text = bullets.ToString() + "/20";
         else {
             bulletText.text = "";
         }
+
     }
 
     public void ChangeLifeText(int amount)
@@ -100,10 +105,10 @@ public class GameManager : MonoBehaviour
     public void ChangeDeathScene()
     {
         // No VR
-        //SceneManager.LoadScene("MenuSeleccionNoVR");
+        SceneManager.LoadScene("MenuSeleccionNoVR");
 
         // VR
-        SceneManager.LoadScene("MenuSeleccionVR Bueno");
+        //SceneManager.LoadScene("MenuSeleccionVR Bueno");
     }
 
     public void BuyBullets(int losepoints, int someBullets) {

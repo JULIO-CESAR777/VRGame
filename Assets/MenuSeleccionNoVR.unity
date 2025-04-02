@@ -1839,6 +1839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player GUS
       objectReference: {fileID: 0}
+    - target: {fileID: 7828669124787640735, guid: 7faae0a8c3c62324190b08c5ee6bc7f1, type: 3}
+      propertyPath: mouseSensitivity
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 8848150933581430143, guid: 7faae0a8c3c62324190b08c5ee6bc7f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 220.79
