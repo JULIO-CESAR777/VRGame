@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MenuSeleccionNoVR.unity
     guid: bcb07ab70dd0f6747a4d76455a530fa5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Dungeon.unity
     guid: e51ddd7e8f1da3e4d851455837ac0c76
   - enabled: 1
@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dungeon VR.unity
     guid: 02179ad3eeb970e4ea144db601569e6e
+  - enabled: 1
+    path: Assets/DUNGEONNoVR.unity
+    guid: 1a59407ee74e3b44c8c0195ece6e5fbb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

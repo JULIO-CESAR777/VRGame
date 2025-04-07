@@ -30,7 +30,7 @@ public class MenuNoVR : MonoBehaviour
         SceneZombiesButton.onClick.AddListener(SceneZombies);
         SceneTiroButton.onClick.AddListener(SceneTiro);
 
-        if (SceneManager.GetActiveScene().name == "Dungeon")
+        if (SceneManager.GetActiveScene().name == "DUNGEONNoVR")
         {
             SceneZombiesButton.gameObject.SetActive(false);
            
