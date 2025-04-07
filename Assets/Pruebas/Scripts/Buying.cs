@@ -15,6 +15,7 @@ public class Buying : MonoBehaviour
         objeto.SetActive(false);
     }
 
+
     void Update()
     {
         // Verificar si estás cerca del punto clave

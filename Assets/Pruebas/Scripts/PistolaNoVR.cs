@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class PistolaNoVR : MonoBehaviour
 {
      // Bullets
-    //private int maxBullets = 20;
+    private int maxBullets = 20;
     //public int bullets;
     public bool usingBullets = false;
     
@@ -46,7 +46,9 @@ public class PistolaNoVR : MonoBehaviour
     {
 
         if (usingBullets && GameManager.instance.bullets <= 0 && menu.isPaused == true) return;
-        
+
+        if (usingBullets && GameManager.instance.bullets <= 0) return;
+
         //Play the audio sound
         if (shootSound && GameManager.instance.bullets > 0)
             AudioSource.PlayClipAtPoint(shootSound, transform.position, shootVolume);
